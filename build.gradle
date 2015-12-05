@@ -37,6 +37,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
     testCompile("junit:junit")
+    compile("org.springframework.boot:spring-boot-devtools")
 }
 
 task wrapper(type: Wrapper) {
